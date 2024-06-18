@@ -124,7 +124,7 @@ int main(){
                 clearScreen(); 
                 cout << "Opcion no valida. Intente de nuevo.\n";
                 cout << "Presione cualquier tecla para continuar...";
-                cin.ignore().get(); // Espera cualquier entrada para continuar
+                cin.ignore().get(); 
                 break;
 	}
 	return 0;
